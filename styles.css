@@ -34,3 +34,21 @@ body {
 .postcard-body {
 	display: flex;
 }
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 2px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+p {
+	font-size: 16px;
+}
